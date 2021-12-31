@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.spacer {
+    margin-bottom: 38px;
+}
+
+p {
+    margin: 0;
+}
+
 body {
     font-size: 62.5%;
 }
@@ -47,7 +55,7 @@ body {
     margin-bottom: 48px;
 }
 
-.main__ingdr {
+.main__mainContent__leftElm__ingdr {
     margin: 0 0 32px 0;
     font-size: 2.4em;
     font-family: 'Playfair Display';
@@ -101,4 +109,71 @@ body {
 
 .color {
     color: #333333;
+}
+
+.main__mainContent__leftElm__titleRct {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8em;
+    color: #333333;
+    margin-bottom: 31px;
+}
+
+.main__mainContent__leftElm__checks {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.main__mainContent__leftElm__checks__content {
+    margin: 2px 0 0 8px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #333333;
+    font-size: 1.6em;
+}
+
+.bold {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.customCard {
+    width: 543px;
+    height: 75px;
+}
+
+.inst {
+    margin: 28px 0 28px 0;
+}
+
+.main__mainContent__leftElm__steps {
+    display: flex;
+    margin-bottom: 31px;
+}
+
+.main__mainContent__leftElm__steps__number {
+    width: 36px;
+    height: 36px;
+    background-color: #F2994A;
+    border-radius: 6px;
+    color: white;
+    font-size: 2.4em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__mainContent__leftElm__steps__number p {
+    align-self: start;
+}
+
+.main__mainContent__leftElm__steps__content {
+    width: 528px;
+    font-size: 1.6em;
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    margin: 4px 0 0 15px;
 }
