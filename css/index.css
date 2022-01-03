@@ -8,6 +8,10 @@
     margin-bottom: 38px;
 }
 
+.source {
+    display: none;
+}
+
 p {
     margin: 0;
 }
@@ -19,6 +23,10 @@ body {
 
 .main {
     margin: 52px 237px 24px 234px;
+}
+
+.main__timing {
+    display: none;
 }
 
 .main__headTitle {
@@ -214,7 +222,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .main {
-        margin: 10px;
+        margin: 0 0 0 11px;
     }
     .main__headTitle {
         font-size: 2.4em;
@@ -281,5 +289,20 @@ body {
     }
     .ctm {
         width: 313px;
+    }
+    .spc {
+        margin-top: 23px;
+    }
+    .main__mainContent__leftElm__steps__content {
+        width: 300px;
+    }
+    .main__mainContent__leftElm__source {
+        font-size: 1.2em;
+    }
+    .main__timing {
+        display: block;
+    }
+    .source {
+        display: block;
     }
 }
