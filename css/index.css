@@ -14,6 +14,7 @@ p {
 
 body {
     font-size: 62.5%;
+    margin: 0;
 }
 
 .main {
@@ -32,6 +33,7 @@ body {
     grid-template-columns: auto 1fr;
     grid-gap: 0 12px;
     margin-bottom: 17px;
+    width: 592px;
 }
 
 .main__subTitle__dot {
@@ -131,6 +133,7 @@ body {
     font-weight: 400;
     color: #333333;
     font-size: 1.6em;
+    width: 554px;
 }
 
 .bold {
@@ -176,4 +179,107 @@ body {
     font-family: 'Montserrat';
     font-weight: 400px;
     margin: 4px 0 0 15px;
+}
+
+.main__mainContent__leftElm__source {
+    font-family: 'Montserrat';
+    color: #BDBDBD;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6em;
+    margin-bottom: 93px;
+}
+
+.creator {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #828282;
+}
+
+.name {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ctm {
+    width: 510px;
+}
+
+.ctmItalic {
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        margin: 10px;
+    }
+    .main__headTitle {
+        font-size: 2.4em;
+    }
+    .main__subTitle {
+        width: 330px;
+    }
+    .main__subTitle__content {
+        font-size: 1.2em;
+    }
+    .main__cake {
+        width: 352px;
+        height: 213px;
+        margin-bottom: 24px;
+    }
+    .main__mainContent {
+        display: block;
+    }
+    .main__mainContent__rightElm {
+        display: none;
+    }
+    .clearFix {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .main__mainContent__rightElm__content {
+        margin: 0;
+    }
+    .main__mainContent__rightElm__content img {
+        width: 14px;
+        margin-bottom: 6px;
+    }
+    .main__mainContent__rightElm__content__title {
+        margin-left: 5px;
+    }
+    .main__mainContent__rightElm__content__title__head {
+        font-size: 0.8em;
+    }
+    .main__mainContent__rightElm__content__title__sub {
+        font-size: 1em;
+    }
+    .main__timing__hours {
+        display: flex;
+        margin: 20px 0 30px 0;
+    }
+    .ctSpace {
+        margin-right: 41px;
+    }
+    .main__mainContent__leftElm {
+        width: 100%;
+    }
+    .main__mainContent__leftElm__ingdr {
+        font-size: 1.8em;
+        margin-bottom: 13px;
+    }
+    .main__mainContent__leftElm__titleRct {
+        font-size: 1.6em;
+        margin: 20px 0 23px 0;
+    }
+    .main__mainContent__leftElm__checks__content {
+        /* width: 321px; */
+        font-size: 1.4em;
+    }
+    .ctm {
+        width: 313px;
+    }
 }
