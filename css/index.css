@@ -307,3 +307,32 @@ body {
         display: block;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    body {}
+    .main {
+        margin: 20px 0 0 20px;
+    }
+    .main__headTitle {
+        width: 600px;
+        margin: 0;
+    }
+    .main__subTitle {
+        width: 100vw;
+        font-size: 1.8em;
+        margin: 30px 0 60px 0;
+    }
+    .main__mainContent {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(2, auto-fill);
+    }
+    .main__mainContent__rightElm {
+        margin-right: 10px;
+        grid-column: 5/5;
+    }
+    .main__mainContent__leftElm {
+        width: 90%;
+    }
+    .main__mainContent__rightElm {}
+}
