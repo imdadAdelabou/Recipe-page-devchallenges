@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.clearFix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.btm {
+    margin-bottom: 20px;
+}
+
 .spacer {
     margin-bottom: 38px;
 }
@@ -65,7 +75,7 @@ body {
     margin-bottom: 48px;
 }
 
-.main__mainContent__leftElm__ingdr {
+.main__ingd__leftElm__title {
     margin: 0 0 32px 0;
     font-size: 2.4em;
     font-family: 'Playfair Display';
@@ -83,13 +93,22 @@ body {
     height: 100vh;
 }
 
-.main__mainContent__rightElm {
+.main__ingd {
+    /* display: flex; */
+}
+
+.main__ingd__leftElm {
+    float: left;
+}
+
+.main__ingd__rightElm {
     width: 216px;
     height: 367px;
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     background-color: white;
     padding: 57px 40px 50px 43px;
+    float: right;
 }
 
 .main__mainContent__rightElm__content {
@@ -121,7 +140,7 @@ body {
     color: #333333;
 }
 
-.main__mainContent__leftElm__titleRct {
+.main__ingd__leftElm__subTitle {
     font-family: 'Playfair Display';
     font-weight: 400;
     font-style: italic;
@@ -130,18 +149,18 @@ body {
     margin-bottom: 31px;
 }
 
-.main__mainContent__leftElm__checks {
+.main__ingd__leftElm__checks {
     display: flex;
     margin-bottom: 3px;
 }
 
-.main__mainContent__leftElm__checks__content {
+.main__ingd__leftElm__checks__content {
+    width: 554px;
     margin: 2px 0 0 8px;
     font-family: 'Montserrat';
     font-weight: 400;
     color: #333333;
     font-size: 1.6em;
-    width: 554px;
 }
 
 .bold {
@@ -221,8 +240,11 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    .main__ingd__rightElm {
+        display: none;
+    }
     .main {
-        margin: 0 5px 0 5px;
+        margin: 0 3px 0 3px;
     }
     .main__headTitle {
         font-size: 2.4em;
@@ -283,8 +305,8 @@ body {
         font-size: 1.6em;
         margin: 20px 0 23px 0;
     }
-    .main__mainContent__leftElm__checks__content {
-        /* width: 321px; */
+    .main__ingd__leftElm__checks__content {
+        width: 300px;
         font-size: 1.4em;
     }
     .ctm {
@@ -309,7 +331,6 @@ body {
 }
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-    body {}
     .main {
         margin: 20px 0 0 20px;
     }
@@ -322,17 +343,26 @@ body {
         font-size: 1.8em;
         margin: 30px 0 60px 0;
     }
-    .main__mainContent {
-        width: 100vw;
-        display: grid;
-        grid-template-columns: repeat(2, auto-fill);
+    .main__mainContent__leftElm__steps__content {
+        font-size: 2.8em;
     }
-    .main__mainContent__rightElm {
-        margin-right: 10px;
-        grid-column: 5/5;
+    .main__ingd__leftElm__title {
+        font-size: 4em;
     }
-    .main__mainContent__leftElm {
-        width: 90%;
+    .main__ingd__rightElm {
+        margin-right: 35px;
     }
-    .main__mainContent__rightElm {}
+    .main__mainContent__leftElm__steps__content {
+        width: 80%;
+    }
+    .main__ingd__leftElm__subTitle {
+        font-size: 3em;
+    }
+    .main__ingd__leftElm__checks__content {
+        font-size: 2.8em;
+    }
+    input {
+        width: 30px;
+        height: 30px;
+    }
 }
