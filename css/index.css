@@ -222,7 +222,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .main {
-        margin: 0 11px 0 11px;
+        margin: 0 5px 0 5px;
     }
     .main__headTitle {
         font-size: 2.4em;
