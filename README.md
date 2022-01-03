@@ -22,4 +22,7 @@ The goal of this challenge is to code a recipe web page.
 
 ## What are discover?
 
-The way to use the "overflow: hidden" property.
+The way to use the **"overflow: hidden"** property.
+
+## 😇 Author(s)
+**Imdad Adelabou** [![Twitter Follow](https://img.shields.io/twitter/follow/IAdelabou?style=social)](https://twitter.com/IAdelabou?s=09)
