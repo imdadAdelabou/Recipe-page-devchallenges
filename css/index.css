@@ -330,7 +330,69 @@ body {
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main__headTitle {
+        width: 100%;
+        font-size: 6em;
+    }
+    .main__subTitle {
+        width: 100%;
+    }
+    .main__subTitle__content {
+        width: 100%;
+        font-size: 2.8em;
+    }
+    .main {
+        margin: 20px 0 0 20px;
+    }
+    .main__cake {
+        background-color: white;
+        padding-right: 20px;
+    }
+    .main__ingd__rightElm {
+        display: none;
+    }
+    .main__timing {
+        display: contents;
+    }
+    .main__mainContent__rightElm__content__img,
+    .main__mainContent__rightElm__content img {
+        width: 50px;
+    }
+    .main__mainContent__rightElm__content__title__head {
+        font-size: 2em;
+    }
+    .main__mainContent__rightElm__content__title__sub {
+        font-size: 2.8em;
+    }
+    .main__timing__hours {
+        display: flex;
+    }
+    .main__ingd__leftElm__title {
+        font-size: 5em;
+    }
+    .main__ingd__leftElm__subTitle {
+        font-size: 4em;
+    }
+    .main__ingd__leftElm__checks__content {
+        width: 100%;
+        font-size: 3em;
+    }
+    .main__mainContent__leftElm__steps__content {
+        width: 100%;
+        font-size: 3em;
+    }
+    input {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.ctSpace {
+    margin-right: 71px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
     .main {
         margin: 20px 0 0 20px;
     }
